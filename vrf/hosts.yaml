@@ -41,12 +41,12 @@ R5:
           vrfv:  1
           ip:   192.168.2.10
           mask: 255.255.255.0
-          desc: VRF1
+          desc: VRF1TOVRF1
         - name: ethernet 0/1
           vrfv:  2
           ip:   192.168.2.10
           mask: 255.255.255.0
-          desc: VRF2
+          desc: VRF2TOVRF2
     vrfs:
         - def: 1
           rd: 1:1
