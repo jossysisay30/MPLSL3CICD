@@ -8,12 +8,20 @@ R4:
           vrfv:  1
           ip:   192.168.1.10
           mask: 255.255.255.0
+<<<<<<< HEAD
           desc: VRF1CE TO r6
+=======
+          desc: VRF1CE TO R6CE
+>>>>>>> 8d44539ce48cdbfd62f8f0c0e6ed710ebae0c4c1
         - name: ethernet 0/1
           vrfv:  2
           ip:   192.168.1.10
           mask: 255.255.255.0
+<<<<<<< HEAD
           desc: VRF2CE TO r9
+=======
+          desc: VRF2CE TO R9
+>>>>>>> 8d44539ce48cdbfd62f8f0c0e6ed710ebae0c4c1
     vrfs:
         - def: 1
           rd: 1:1
