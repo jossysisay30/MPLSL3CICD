@@ -13,7 +13,7 @@ R4:
           vrfv:  2
           ip:   192.168.1.10
           mask: 255.255.255.0
-          desc: VRF2CE TO R9
+          desc: VRF2CE TO R7
     vrfs:
         - def: 1
           rd: 1:1
@@ -46,7 +46,7 @@ R5:
           vrfv:  2
           ip:   192.168.2.10
           mask: 255.255.255.0
-          desc: VRF2TOVRF2
+          desc: VRF2TOR8
     vrfs:
         - def: 1
           rd: 1:1
