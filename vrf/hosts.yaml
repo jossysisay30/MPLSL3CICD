@@ -13,7 +13,7 @@ R4:
           vrfv:  2
           ip:   192.168.1.10
           mask: 255.255.255.0
-          desc: VRF2CE TO R99
+          desc: VRF2CE TO R99 VPN
     vrfs:
         - def: 1
           rd: 1:1
